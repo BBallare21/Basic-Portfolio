@@ -76,7 +76,6 @@ a {color: #777777;
 
 section {
     background-color: #ffffff;
-    float: left;
     color: #777777;
     border: 2px solid #dddddd;
 }
@@ -109,6 +108,11 @@ input, textarea {
     top: -10px;
     width: 100%;
     bottom: 30px;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 10px;
 }
 
 .image-title{
