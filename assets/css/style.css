@@ -101,14 +101,14 @@ input, textarea {
     display: inline-block;
     width: 250px;
     height: 100px;
-    margin: 20px;
+    margin: 80px;
 }
 
 .portfolio-image {
     float: left;
-    position: relative;
     top: -10px;
     width: 100%;
+    bottom: 30px;
 }
 
 .image-title{
@@ -140,4 +140,37 @@ input, textarea {
     top: 30px;
     margin-left: 125px;
     margin-bottom: 50px;
+}
+
+#bio {
+    height: auto;
+    padding: 20px;
+    float: left;
+}
+
+#contact-form {
+    height: 500px;
+    padding: 20px;
+}
+
+#portfolio {
+    height: 900px;
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 18px;
+    height: 70px;
+    background-color: #666666;
+    width: 100%;
+    border-bottom: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
 }
